@@ -19,4 +19,4 @@ The contents of the toolbox are as follows:
 NOTE: The MGRS grid shapefile and the colorramp.clr file are required to successfully run the tools. Please refrain from deleting/moving outside of its current location.
 
 ## Installation
-To install this toolbox, first download this repository. Next, open ArcGIS Pro, navigate to "Toolboxes" in the catalog. Right click on Toolboxes, select "add toolbox", and select the .atbx file in the downloaded repo.
+To install this toolbox, first download the included zip folder and extract. Next, open ArcGIS Pro, navigate to "Toolboxes" in the catalog. Right click on Toolboxes, select "add toolbox", and select the .atbx file in the unpacked location.
