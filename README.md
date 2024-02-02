@@ -1,5 +1,5 @@
 # OPERA-ArcGIS-Toolbox
-
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Overview
 The toolbox contains three geoprocessing tools. 
 (a)	OPERA Granule Download
