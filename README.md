@@ -6,7 +6,7 @@ The toolbox contains three geoprocessing tools.
 (b)	OPERA Granule Filter
 (c)	OPERA Raster Mosaic
 
-These tools perform the follwoing actions:
+These tools perform the following actions:
 (a)	Download OPERA DSWx granules from PO.DAAC.
 (b)	Filter OPERA granules from the downloaded stack in (a) or from a previously downloaded stack based on a user-provided date range and Area of Interest (AOI). Optional functionality copies subsets of granules into a separate folder based on filter parameters.
 (c)	Composite and mosaic OPERA granules based on user-provided land cover priorities (The mosaic operator will choose the prioritized land cover class in areas where granules overlap). 
