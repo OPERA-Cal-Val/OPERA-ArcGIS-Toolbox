@@ -23,4 +23,4 @@ NOTE: The MGRS grid shapefile and the colorramp.clr file are required to success
 Video turorials for the toolbox are available here https://www.youtube.com/playlist?list=PLKWlaxzCh8uLAtuqFMQtjbZxqhKI_9fPR. Note* these tutorials were made for the first version of the toolbox that did not include DIST-ALERT or RTC products.
 
 ## Installation
-To install this toolbox, first download the included zip folder and extract. Next, open ArcGIS Pro, navigate to "Toolboxes" in the catalog. Right click on Toolboxes, select "add toolbox", and select the .atbx file in the unpacked location.
+To install and access this toolbox in ArcGIS Pro, first download the OPERA-ArcGIS-Toolbox folder and unzip downloaded file. Next, open ArcGIS Pro and navigate to the unpacked location to work with the toolbox.
