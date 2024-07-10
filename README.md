@@ -4,7 +4,8 @@
 The toolbox contains three geoprocessing tools.   
 (a)	OPERA Granule Download  
 (b)	OPERA Granule Filter  
-(c)	OPERA Raster Mosaic
+(c)	OPERA Granule Mosaic
+(d) OPERA Zonal Statistics
 
 These tools perform the following actions:  
 (a)	Download OPERA DSWx-HLS granules from PO.DAAC.  
