@@ -4,7 +4,7 @@
 The toolbox contains three geoprocessing tools.   
 (a)	OPERA Granule Download  
 (b)	OPERA Granule Filter  
-(c)	OPERA Granule Mosaic 
+(c)	OPERA Granule Mosaic   
 (d) OPERA Zonal Statistics
 
 These tools perform the following actions:  
