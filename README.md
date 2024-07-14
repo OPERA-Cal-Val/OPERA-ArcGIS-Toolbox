@@ -11,8 +11,7 @@ These tools perform the following actions:
 (a)	Download OPERA DSWx-HLS granules from PO.DAAC.  
     Download OPERA DIST-ALERT granules from LP DAAC.  
     Download OPERA RTC-S1 granules from ASF DAAC.  
-(b)	Filter OPERA DSWx-HLS granules from (a) a previously downloaded stack of granules based on a user-provided date range and Area of Interest (AOI)  
-or (b) granules currently existing on the ArcGIS Pro contents pane.   
+(b)	Filter OPERA DSWx-HLS granules from (a) a previously downloaded stack of granules based on a user-provided date range and Area of Interest (AOI) or (b) granules currently existing on the ArcGIS Pro contents pane.   
 (c)	Composite and mosaic OPERA DSWx-HLS granules based on user-provided land cover priorities (The mosaic operator will choose the prioritized land cover class in areas where granules overlap).  
 (d) Calculate three different types of Zonal Statistics (i.e., number of pixels, area, percentage area) of each land cover class/product category class in granule(s) within a user-provided AOI.   
 
