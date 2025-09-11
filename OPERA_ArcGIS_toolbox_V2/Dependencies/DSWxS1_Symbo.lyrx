@@ -1,0 +1,446 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.4.0",
+  "build" : 55405,
+  "layers" : [
+    "CIMPATH=Internal_Map/1_T11SMT_20250415T135304Z_20250416T012403Z_S1A_30_v1_tif.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "OPERA_L3_DSWx-S1_T11SMT_20250415T135304Z_20250416T012403Z_S1A_30_v1.0_B01_WTR.tif",
+      "uRI" : "CIMPATH=Internal_Map/1_T11SMT_20250415T135304Z_20250416T012403Z_S1A_30_v1_tif.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "metadataURI" : "CIMPATH=Metadata/f3186acebf4e7b180f1cc2382cdb207a.xml",
+      "useSourceMetadata" : true,
+      "description" : "OPERA_L3_DSWx-S1_T11SMT_20250415T135304Z_20250416T012403Z_S1A_30_v1.0_B01_WTR.tif",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/18a94b086ccf4675a8f69e8061b88062.json"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\Documents\\ArcGIS\\Projects\\uselessthestfour\\uselessthestfour\\scrap",
+        "workspaceFactory" : "Raster",
+        "dataset" : "OPERA_L3_DSWx-S1_T11SMT_20250415T135304Z_20250416T012403Z_S1A_30_v1.tif",
+        "datasetType" : "esriDTRasterDataset"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "defaultColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            0,
+            0,
+            0,
+            100
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "0"
+                ],
+                "label" : "Not Water",
+                "color" : {
+                  "type" : "CIMLABColor",
+                  "values" : [
+                    100,
+                    -0.02,
+                    0.01,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "1"
+                ],
+                "label" : "Open Water",
+                "color" : {
+                  "type" : "CIMLABColor",
+                  "values" : [
+                    28.969999999999999,
+                    70.260000000000005,
+                    -113.06,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "3"
+                ],
+                "label" : "Inundated Vegetation",
+                "color" : {
+                  "type" : "CIMLABColor",
+                  "values" : [
+                    87.810000000000002,
+                    -79.340000000000003,
+                    81.390000000000001,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "250"
+                ],
+                "label" : "HAND Masked",
+                "color" : {
+                  "type" : "CIMLABColor",
+                  "values" : [
+                    80.609999999999999,
+                    -0.029999999999999999,
+                    0.02,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "251"
+                ],
+                "label" : "Layover/Shadow Masked",
+                "color" : {
+                  "type" : "CIMLABColor",
+                  "values" : [
+                    53.549999999999997,
+                    0.17000000000000001,
+                    0.070000000000000007,
+                    100
+                  ]
+                }
+              }
+            ],
+            "heading" : "Value"
+          }
+        ],
+        "colorRamp" : {
+          "type" : "CIMMultipartColorRamp",
+          "colorRamps" : [
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  76.846907633328769,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  79.276993261605071,
+                  17.12111142164019,
+                  77.09125175223042,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  79.276993261605071,
+                  17.12111142164019,
+                  77.09125175223042,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  85.607074229000403,
+                  -91.486192975967157,
+                  73.962202685380788,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  85.607074229000403,
+                  -91.486192975967157,
+                  73.962202685380788,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  89.644590646826003,
+                  -51.521697716782114,
+                  -16.300660645455501,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  68.955513833844876,
+                  -14.700660868053717,
+                  -47.117856942647563,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  68.955513833844876,
+                  -14.700660868053717,
+                  -47.117856942647563,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  34.668982832368499,
+                  71.125560221348664,
+                  -101.88789308244294,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  34.668982832368499,
+                  71.125560221348664,
+                  -101.88789308244294,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  63.995042207660305,
+                  92.113234125181236,
+                  -53.03187738755495,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  63.995042207660305,
+                  92.113234125181236,
+                  -53.03187738755495,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              }
+            }
+          ],
+          "weights" : [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true
+      }
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/f3186acebf4e7b180f1cc2382cdb207a.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20250910</CreaDate><CreaTime>05392200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>OPERA_L3_DSWx-S1_T11SMT_20250415T135304Z_20250416T012403Z_S1A_30_v1.0_B01_WTR.tif</resTitle></idCitation><idAbs>OPERA_L3_DSWx-S1_T11SMT_20250415T135304Z_20250416T012403Z_S1A_30_v1.0_B01_WTR.tif</idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
+    {
+      "type" : "CIMElevationSurfaceLayer",
+      "name" : "Ground",
+      "uRI" : "CIMPATH=Map/18a94b086ccf4675a8f69e8061b88062.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
+      "verticalExaggeration" : 1,
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}

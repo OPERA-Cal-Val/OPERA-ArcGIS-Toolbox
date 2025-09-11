@@ -1,0 +1,215 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.4.0",
+  "build" : 55405,
+  "layers" : [
+    "CIMPATH=Map/S_T11SMT_2024_20250430T033141Z_30_v1_VEG_DIST_STATUS_tif.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "OPERA_L3_DIST-ANN-HLS_T11SMT_2024_20250430T033141Z_30_v1_VEG-DIST-STATUS.tif",
+      "uRI" : "CIMPATH=Map/S_T11SMT_2024_20250430T033141Z_30_v1_VEG_DIST_STATUS_tif.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "OPERA_L3_DIST-ANN-HLS_T11SMT_2024_20250430T033141Z_30_v1_VEG-DIST-STATUS.tif",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/18a94b086ccf4675a8f69e8061b88062.json"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=..\\..\\Sample_Tiles\\DIST-ANN-HLS",
+        "workspaceFactory" : "Raster",
+        "dataset" : "OPERA_L3_DIST-ANN-HLS_T11SMT_2024_20250430T033141Z_30_v1_VEG-DIST-STATUS.tif",
+        "datasetType" : "esriDTAny"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "0"
+                ],
+                "label" : "No disturbance",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    18,
+                    18,
+                    18,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "3"
+                ],
+                "label" : "Confirmed <50% ongoing",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    222,
+                    224,
+                    67,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "6"
+                ],
+                "label" : "Confirmed \u226550% ongoing",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    27,
+                    7,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "7"
+                ],
+                "label" : "Confirmed <50% finished",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    119,
+                    119,
+                    119,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "8"
+                ],
+                "label" : "Confirmed \u226550% finished",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    221,
+                    221,
+                    221,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "9"
+                ],
+                "label" : "Confirmed previous year <50%",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    51,
+                    51,
+                    51,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10"
+                ],
+                "label" : "Confirmed previous year \u226550%",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    68,
+                    68,
+                    68,
+                    100
+                  ]
+                }
+              }
+            ],
+            "heading" : "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
+    {
+      "type" : "CIMElevationSurfaceLayer",
+      "name" : "Ground",
+      "uRI" : "CIMPATH=Map/18a94b086ccf4675a8f69e8061b88062.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
+      "verticalExaggeration" : 1,
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}
