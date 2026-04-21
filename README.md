@@ -17,7 +17,7 @@ These tools perform the following actions:
 (c)	Composite and mosaic OPERA DSWx-HLS and DSWx-S1 granules based on user-provided land cover priorities (The mosaic operator will choose the prioritized land cover class in areas where granules overlap). <br>    
 (d)	Calculate three different types of Zonal Statistics (i.e., number of pixels, area, percentage area) of each land cover class/product category class in OPERA DSWx-HLS, DSWx-S1, DIST-ALERT-HLS and DIST-ANN-HLS granule(s) within a user-provided AOI.    
 
-The contents of the downloadable folder are as follows: 
+The contents of the OPERA-ArcGIS-Toolbox folder are as follows: 
 -	This readme file
 -	Toolbox Documentation (Documentation_OPERAArcGISProToolbox_V2_0.pdf)
 -	The OPERA ArcGIS Pro Toolbox   
