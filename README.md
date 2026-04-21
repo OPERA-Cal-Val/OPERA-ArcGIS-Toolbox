@@ -1,11 +1,11 @@
 # OPERA-ArcGIS-Toolbox
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Overview
-The toolbox contains three geoprocessing tools.   
+The toolbox contains four geoprocessing tools.   
 (a)	OPERA Granule Download  
 (b)	OPERA Granule Filter  
 (c)	OPERA Granule Mosaic  
-(d) OPERA Zonal Statistics
+(d)   OPERA Zonal Statistics
 
 These tools perform the following actions:    
 (a)	Download OPERA DSWx-HLS granules from PO.DAAC.  
