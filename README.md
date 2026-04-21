@@ -24,7 +24,7 @@ The contents of the downloadable folder are as follows:
 -	a ‘Dependency’ folder with color ramp files (.clr) and symbology files (.lyrx) to preserve original OPERA DSWx-HLS, DSWx-S1, DIST-ALERT-HLS, DIST-ANN-HLS and RTC-S1 color ramp information during geoprocessing.   
 NOTE: The dependency folder is required to successfully run the tools. Please refrain from deleting/changing the folder path relative to its current location.  
 
-Video turorials for the toolbox are available here https://www.youtube.com/playlist?list=PLKWlaxzCh8uLAtuqFMQtjbZxqhKI_9fPR. 
+Video turorials for the toolbox are available here https://www.youtube.com/playlist?list=PLKWlaxzCh8uLAtuqFMQtjbZxqhKI_9fPR.<br> 
 Note* these tutorials were made for the first version of the toolbox that did not include DIST-ALERT or RTC products.
 
 ## Installation
