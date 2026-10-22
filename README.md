@@ -61,6 +61,3 @@ Expand the toolbox in the Catalog pane to see the four tools. Double-click a too
 
 <p align="center"><img src="images/step5_granule_download.png" width="420" alt="OPERA Granule Download tool open in the Geoprocessing pane"></p>
 
-## License
-
-This project is licensed under the [Apache License 2.0](LICENSE).
