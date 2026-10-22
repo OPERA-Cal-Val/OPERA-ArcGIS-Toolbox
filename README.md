@@ -1,7 +1,7 @@
 # OPERA ArcGIS Pro Toolbox
 
 <p align="center">
-  <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge" alt="License: Apache 2.0"></a>
+  <a href="https://github.com/OPERA-Cal-Val/OPERA-ArcGIS-Toolbox/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge" alt="License: Apache 2.0"></a>
   <a href="https://github.com/OPERA-Cal-Val/OPERA-ArcGIS-Toolbox/releases/latest"><img src="https://img.shields.io/github/v/release/OPERA-Cal-Val/OPERA-ArcGIS-Toolbox?style=for-the-badge" alt="Latest release"></a>
   <a href="https://pro.arcgis.com"><img src="https://img.shields.io/badge/ArcGIS%20Pro-2C7AC3?style=for-the-badge&logo=arcgis&logoColor=white" alt="ArcGIS Pro"></a>
 </p>
